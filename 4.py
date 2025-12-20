@@ -2,15 +2,15 @@
 #1
 class Espresso:
     def prepare(self):
-        return "Готовим эспрессо ☕"
+        return "Готовим эспрессо"
 
 class Cappuccino:
     def prepare(self):
-        return "Готовим капучино ☕"
+        return "Готовим капучино"
 
 class Latte:
     def prepare(self):
-        return "Готовим латте ☕"
+        return "Готовим латте"
 
 class CoffeeFactory:
     def create_coffee(self, coffee_type):
